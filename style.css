@@ -1,0 +1,122 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        height: 100%;
+        background-color: black;
+    
+}
+
+h1{
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+
+}
+span{
+    color:#e68414;
+    font-family:'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.header-container{
+    margin-top: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todo-input{
+    width: 400px;
+    height: 2.5rem;
+    border:none;
+    outline:none;
+    border-radius: 2rem;
+    margin: 0.25rem;
+    text-align: center;
+    font-size: 1.15rem;
+    background-color: #fff;
+}
+.add-items{
+    height:2rem;
+    width:3rem;
+    border:none;
+    border-radius: 2rem;
+    background-color:#e68414;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.todo-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.todo-list{
+    min-width: 28%;
+    margin-right: 2.9rem;
+    list-style: none;
+    text-align: center;
+}
+.todo{
+
+    background:rgb(31, 30, 30);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0.5rem;
+
+}
+
+.newTodo-list{
+    flex:1;
+    width: 3rem;
+    display: inline;
+    color:#fff;
+    margin:0.25rem;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.complt-btn{
+    height:2rem;
+    width:3rem;
+    background-color:#e68414;
+    font-size: 1rem;
+    cursor: pointer;
+    border:none;
+    border-radius: 2rem;
+
+
+}
+.del-btn{
+    height:2rem;
+    width:3rem;
+    background-color:#e68414;
+    font-size: 1rem;
+    cursor: pointer;
+    border:none;
+    border-radius: 2rem;
+
+
+}
+.fa-trash .fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
